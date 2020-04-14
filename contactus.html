@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+<head>
+	<meta charset = "utf-8">
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="style.css">
+	<style>
+	
+		div.rightside{
+			float: right;
+			padding-right: 30px;
+		}
+
+		@font-face{
+			font-family: Homemade_Apple;
+			src: url(homemadeappleregular.ttf);
+		}
+
+		div.formbox{
+			background-color: white;
+			position: absolute;
+			left: 50%;
+  			margin-left: -300px;
+  			top: 50%;
+  			margin-top: -350px;
+  			margin-bottom: -150px;
+  			padding: 1.5%;
+		}
+
+		p{
+			font-family: Homemade_Apple;
+		}
+
+		input[type=text]{
+ 			width: 200px;
+  			padding: 5px 10px;
+  			margin: 5px 0;
+  			box-sizing: border-box;
+  			border: none;
+  			border-bottom: 2px solid #A62424;
+		}
+		input[type=email] {
+  			width: 200px;
+  			padding: 5px 10px;
+  			margin: 5px 0;
+  			box-sizing: border-box;
+  			border: none;
+  			border-bottom: 2px solid #A62424;
+		}
+
+		input[type=submit]{
+			background-color: #A62424;
+  			border: none;
+  			color: white;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-size: 14px;
+  			margin: 4px 2px;
+  			cursor: pointer;
+  			padding: 10px 24px;
+		}
+		
+	</style>
+	<title>Contact Us</title>
+</head>
+<body>
+	<!-- navigation pane-->
+	<div class="navbar">
+		<!--<img src="bblogo.png" style="margin-top: -60px" width="300" height="200">-->
+		<img src="bblogov2.png" width="440" height="80">
+		<nav style="float: right;">
+			<a href="index.html">Home</a> &nbsp;|&nbsp;
+			<a href="menu.html">Menu</a> &nbsp;|&nbsp;
+			<!--<a href="other.html">Other</a> &nbsp;|&nbsp;-->
+			<a href="contactus.html">Contact Us</a>
+		</nav>
+
+	</div>	
+	<!--container for contact me form-->
+	<div class="formbox">
+				<table>
+					<tr>
+						<th style="text-align: center"><p style="font-size: 30px;" >Don't be a stranger</p></th>
+					</tr>
+					<tr>
+						<td>
+				<!--left side of box-->
+				<div id="leftside" style="float: left">
+					<p>Say hello. Write us or call us.<br>+1 202 555 0170</p>
+				</div>
+				<!--right side of box-->
+				<div class="rightside">
+					<form>
+						<input type="text" name="fname" placeholder="First name"><br />
+						<input type="email" name="email" placeholder="Enter Email Address"><br />
+						<input type="text" name="phone" placeholder="Phone"><br />
+						<input type="text" name="message" placeholder="Your Message"><br />
+						<input type="submit" value="Submit">
+					</form><br>
+				</div>
+						</td>
+					</tr>
+					<tr>
+						<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.815695603957!2d-73.97111568486933!3d40.67802967933562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25ba668acbdfd%3A0xc7fff18661425925!2s614%20Vanderbilt%20Ave%2C%20Brooklyn%2C%20NY%2011238!5e0!3m2!1sen!2sus!4v1586900258788!5m2!1sen!2sus" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></td>
+					</tr>
+	</table>
+
+	</div>
+
+		<div class="footer">
+  			<p>Designed by Nakeita</p>
+		</div>
+</body>
+</html>

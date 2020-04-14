@@ -1,0 +1,51 @@
+	@font-face{
+			font-family: Worksans;
+			src: url(worksansvariablefont_wght.ttf);
+		}
+	div.navbar{
+			background-color: white;
+			width: 100%;
+			height: 80px;
+			font-family: Worksans;
+		}
+
+	nav{
+			padding-top: 35px;
+			padding-right: 50px;
+
+		}
+
+	h2{
+		font-family: WorkSans;
+		font-weight: bold;
+	}
+
+	h3{
+		font-family: WorkSans;
+		font-weight: bold;
+	}
+
+	a{
+  			color: black;
+  			font-family: WorkSans;
+  			font-size: 18px;
+  			text-align: center;
+  			text-decoration: none;
+		}
+
+	body {
+			background-image: url("Images/martindalesroadv6.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+	div.footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                /*background-color: white;*/
+                opacity: 0.9;
+                color: black;
+                text-align: center;
+		}
+	
